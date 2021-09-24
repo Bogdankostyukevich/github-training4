@@ -39,7 +39,7 @@ body {
 
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.192;
 }
 
 .page-header {
@@ -60,7 +60,7 @@ ul {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -114,7 +114,7 @@ ul {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.142;
     letter-spacing: 0.02em;
 
     display: block;
@@ -152,7 +152,7 @@ ul {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.142;
     letter-spacing: 0.02em;
 
     display: block;
@@ -168,7 +168,7 @@ ul {
 /* секция hero */
 
 .hero {
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
 
     margin: 0;
     padding: 0;
@@ -177,14 +177,26 @@ ul {
 .background-hero {
      font-weight: 900;
      font-size: 44px;
-     line-height: 1.36;
+     line-height: 1.363;
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
 
      padding-top: 200px;
      padding-bottom: 200px;
-     
+
+     width: 1600px;
+     height: 600px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #2F303A;
+     background-image: linear-gradient(
+     rgba(0,0,0,0.4), 
+     rgba(47,48,58,0.4)), 
+     url("../imeges/icon/fon.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
  }
 
 .hero-title {
@@ -205,7 +217,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.875;
     letter-spacing: 0.06em;
 
     display: inline-block;
@@ -219,14 +231,14 @@ ul {
 /* наши возможности */
 
 .appearance {
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
 }
 
 .feature-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
- }
+}
 
 .item {
     margin-right: 30px;
@@ -245,10 +257,56 @@ ul {
     width: 270px;
 }
 
+.list-icone::before {
+    /* outline: 1px solid red; */
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+    background-image: url("../imeges/icon/antenna.svg");
+}
+
+.icon-watch::before {
+    background-image: url("../imeges/icon/watch.svg");
+}
+
+.icon-vector::before {
+    background-image: url("../imeges/icon/vector.svg");
+}
+
+.icon-astronaut::before {
+    background-image: url("../imeges/icon/astronaut.svg");
+}
+
+        /* Альтернатива */
+
+/* .list-icone:nth-child(1)::before {
+    background-image: url("../imeges/icon/antenna.svg");
+}
+
+.list-icone:nth-child(2)::before {
+    background-image: url("../imeges/icon/watch.svg");
+}
+
+.list-icone:nth-child(3)::before {
+    background-image: url("../imeges/icon/vector.svg");
+}
+
+.list-icone:nth-child(4)::before {
+    background-image: url("../imeges/icon/astronaut.svg");
+} */
+
+
+
 .title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -263,12 +321,11 @@ ul {
 
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.714;
 }
 
-.text {
-    
-}
+
+/* чем мы занимаемся */
 
 .img {
     display: flex;
@@ -280,33 +337,19 @@ ul {
 }
 
 .section-title {
+    color: var(--primery-text-color);
+
     margin: 0;
     padding: 0;
     padding-top: 94px;
     margin-bottom: 50px;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
-
-
-/* наша команда */
-
-
-/* чем мы занимаемся */
-
-.section-title {
-    color: var(--primery-text-color);
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 1.166;
     text-align: center;
 }
+
 
 /* наша команда */
 
@@ -356,7 +399,7 @@ ul {
     
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.187;
     text-align: center;
 }
 
@@ -364,13 +407,28 @@ ul {
     margin: 0;
     padding: 0;
     padding-bottom: 30px;
-}
 
-.profession {
     color: var(--title-text-color);
 
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.187;
+    text-align: center;
+}
+
+.client {
+    margin: 0;
+    padding: 0;
+
+    margin-top: 94px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
     text-align: center;
 }
 
@@ -381,7 +439,6 @@ ul {
 }
 
 .background-footer {
-    background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
     /* padding-left: 215px; */
@@ -391,16 +448,20 @@ ul {
     margin-bottom: 20px;
 }
 
+.info {
+    /* display: flex; */
+}
+
 .auth-nav-footer .contacts-link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.714;
 }
 
-.auth-nav-footer .contacts-link:hover,
-.auth-nav-footer .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
 
@@ -408,7 +469,7 @@ ul {
     color: var(--primery-white-color);
 
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.714;
 
     margin-bottom: 9px;
 }
