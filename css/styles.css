@@ -257,17 +257,7 @@ ul {
     width: 270px;
 }
 
-.list-icone::before {
-    /* outline: 1px solid red; */
-    content: "";
-    display: inline-block;
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    margin-bottom: 30px;
-}
-
-.icon-antenna::before {
+/* .icon-antenna::before {
     background-image: url("../imeges/icon/antenna.svg");
 }
 
@@ -281,7 +271,7 @@ ul {
 
 .icon-astronaut::before {
     background-image: url("../imeges/icon/astronaut.svg");
-}
+} */
 
         /* Альтернатива */
 
@@ -430,6 +420,21 @@ ul {
 
     color: #212121;
     text-align: center;
+}
+
+.client {
+    margin: 0;
+    padding: 0;
+    margin-top: 94px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
 
 /* подвал */
