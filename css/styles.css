@@ -455,14 +455,9 @@ ul {
 
     width: 170px;
     height: 92px;
-    background-color: #AFB1B8;
 
     margin-bottom: 50px;
 }
-
-/* .customer-list .customer + .customer {
-    margin-left: 30px;
-} */
 
 
 /* подвал */
@@ -524,22 +519,4 @@ ul {
     letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
-}
-
-/* чорновик */
-
-.client-list {
-    margin: 0;
-    padding: 0;
-    border: 1px solid tomato;
-}
-
-.client-item {
-    border: 1px solid yellow;
-    width: 170px;
-    height: 92px;
-}
-
-.client-icon {
-    fill: currentColor;
 }
