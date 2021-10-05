@@ -166,18 +166,6 @@ ul {
     color: var(--accent-color);
 }
 
-.ml,
-.tel {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.ml {
-    width: 16px;
-    height: 12px;
-}
-
 /* секция hero */
 
 .hero {
@@ -424,40 +412,6 @@ ul {
 }
 
     /* Постоянные клиенты */
-
-.clients {
-    margin: 0;
-    padding: 0;
-
-    margin-top: 94px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.166;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-    text-align: center;
-
-    margin-bottom: 50px;
-}
-
-.customer:not(:last-child) {
-    margin-right: 30px;
-}
-
-.customer-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
-    width: 170px;
-    height: 92px;
-
-    margin-bottom: 50px;
-}
 
 
 /* подвал */
