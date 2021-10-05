@@ -96,7 +96,7 @@ ul {
     margin-left: 50px;
 }
 
-        /* убераем крайний маржин */
+    /* убераем крайний маржин */
 
 /* .site-nav .item:last-child {
     margin: 0;
@@ -165,6 +165,22 @@ ul {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
+
+.mail-to,
+.telephon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail-to,
+.telephon {
+    fill: currentColor;
+    margin-right: 10px;
+
+}
+
 
 /* секция hero */
 
@@ -412,6 +428,21 @@ ul {
 }
 
     /* Постоянные клиенты */
+
+.clients {
+    margin: 0;
+    padding: 0;
+    margin-top: 94px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+}
 
 
 /* подвал */
