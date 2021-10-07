@@ -316,6 +316,10 @@ ul {
     background-image: url("../imeges/icon/astronaut.svg");
 } */
 
+.list-icone {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
 .icon-benefits {
     width: 270px;
     height: 120px;
