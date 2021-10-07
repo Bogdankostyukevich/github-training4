@@ -255,8 +255,8 @@ ul {
 
 /* наши возможности */
 
-.appearance {
-    /* background-color: #E5E5E5; */
+.section {
+    margin-bottom: 94px;
 }
 
 .feature-list {
@@ -315,6 +315,10 @@ ul {
 .list-icone:nth-child(4)::before {
     background-image: url("../imeges/icon/astronaut.svg");
 } */
+
+.section .section-title {
+    margin-bottom: 50px;
+}
 
 .list-icone {
     flex-basis: calc((100% - 90px) / 4);
@@ -465,7 +469,7 @@ ul {
     padding-bottom: 94px;
 }
 
-.section-title {
+.customers .section-title {
     text-align: center;
     margin: 0;
     padding: 0;
