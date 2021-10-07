@@ -321,11 +321,17 @@ ul {
 }
 
 .icon-benefits {
+    padding: 0;
+    border: none;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
 
+}
+
+.icons-capabilities {
+    background-position: center;
 }
 
 .possibilities {
@@ -463,6 +469,7 @@ ul {
     text-align: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.166;
     letter-spacing: 00.03em;
