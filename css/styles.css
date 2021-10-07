@@ -174,9 +174,19 @@ ul {
     align-items: center;
 }
 
+.icon-mail,
+.icon-tel:hover {
+    color: var(--accent-color);
+}
+
+.icon-mail,
+.icon-tel:focus {
+    color: var(--accent-color);
+}
+
 .envelope,
 .smartphone {
-    /* fill: currentColor; */
+    fill: currentColor;
     margin-right: 10px;
 }
 
@@ -433,13 +443,14 @@ ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px;
 }
 
 .section-title {
     text-align: center;
-    margin: 0 0 50px 0;
+    margin: 0;
+    padding: 0;
     font-size: 36px;
     line-height: 1.166;
     letter-spacing: 00.03em;
