@@ -322,16 +322,13 @@ ul {
 
 .icon-benefits {
     padding: 0;
+    padding: 25px 100px;
     border: none;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
-}
-
-.icon-capabilities {
-    padding: 25px 100px;
 }
 
 .title {
@@ -396,8 +393,6 @@ ul {
 
 .employees-list {
     display: flex;
-
-    /* margin-bottom: 94px; */
 }
 
 .employees-list .team + .team {
@@ -445,6 +440,35 @@ ul {
     line-height: 1.187;
     text-align: center;
 }
+
+.team-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    color: var(--clients-color);
+}
+
+.team-link:hover,
+.team-link:focus{
+  background-color: var(--accent-color);
+  color: #ffffff;
+  
+}
+
+.network-item:not(:last-child) {
+    margin-right: 10px;}
 
     /* Постоянные клиенты */
 
