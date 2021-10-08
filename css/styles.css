@@ -445,6 +445,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 30px;
 }
 
 .team-link {
@@ -596,7 +598,7 @@ ul {
     text-transform: uppercase;
 }
 
-.network-item {
+.list-network {
     display: flex;
     justify-content: center;
     align-items: center;
