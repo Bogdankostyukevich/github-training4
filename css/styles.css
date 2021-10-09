@@ -138,11 +138,6 @@ ul {
 
 /* auth-nav */
 
-.auth-nav {
-    display: flex;
-    margin-left: auto;
-}
-
 .auth-nav .item + .item {
     margin-left: 50px;
 }
@@ -162,17 +157,23 @@ ul {
     
 }
 
+.auth-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
 
-.icon-mail,
+/* .icon-mail,
 .icon-tel {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .icon-mail,
 .icon-tel:hover {
@@ -405,7 +406,7 @@ ul {
 }
 
 .team {
-    background-color: #FFFFFF;
+    background-color: var(--primery-white-color);
 }
 
 .photo {
@@ -441,13 +442,14 @@ ul {
     text-align: center;
 }
 
-.team-network {
+.network-item {
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin-bottom: 30px;
 }
+
 
 .team-link {
     display: flex;
@@ -458,14 +460,14 @@ ul {
     height: 44px;
     border-radius: 50%;
     border: none;
-    background-color: #ffffff;
+    background-color: var(--primery-white-color);
     color: var(--clients-color);
 }
 
 .team-link:hover,
 .team-link:focus{
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--primery-white-color);
   
 }
 
@@ -508,7 +510,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white-color);
+    background-color: var(--primery-white-color);
     width: 170px;
     height: 92px;
 }
@@ -540,9 +542,16 @@ ul {
     background-color: #2F303A;
 }
 
+.fo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .background-footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-right: 70px;
     /* padding-left: 215px; */
 }
 
@@ -582,12 +591,16 @@ ul {
 
 .social-networks{
     margin: 0;
+    padding: 0;
     width: 206px;
-    padding: 15px 0 97px 0;
+    /* padding: 15px 0 97px 0; */
     margin-left: 70px;
 }
 
 .join{
+    margin: 0;
+    padding: 0;
+    color: var(--primery-white-color);
     margin-bottom: 20px;
     align-content: center;
     font-family: Roboto;
@@ -604,7 +617,7 @@ ul {
     align-items: center;
 }
 
-.network-link{
+.network-link {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -614,5 +627,12 @@ ul {
     border-radius: 50%;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);;
-    color: #ffffff;
+    color: var(--primery-white-color);
 }
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primery-white-color);
+}
+
