@@ -142,6 +142,29 @@ ul {
     color: #2196F3;
 }
 
+.authnav-portfolio {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.icon-mail,
+.icon-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authnav-portfolio .link:hover,
+.authnav-portfolio .link:focus {
+    color: var(--accent-color);
+}
+
+
+.envelope,
+.smartphone {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
 .accent {
     color: var(--primery-text-color);
@@ -248,6 +271,8 @@ ul {
     width: 370px;
     margin-right: 30px;
     border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .card:nth-child(3n) {
@@ -286,7 +311,7 @@ img {
 
 }
 
-.container p {
+.container .project {
     color: var(--title-text-color);
 }
 
@@ -315,6 +340,12 @@ img {
 
 .page-footer {
     background-color: #2F303A;
+}
+
+.footer-join {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .bf-portfolio {
@@ -348,7 +379,7 @@ img {
 
 .address {
     color: var(--primery-white-color);
-
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
 
@@ -363,3 +394,58 @@ img {
 .mail {
     margin-bottom: 9px;
 }
+
+.social-networks{
+    margin: 0;
+    padding: 0;
+    width: 206px;
+    /* padding: 15px 0 97px 0; */
+    margin-left: 70px;
+}
+
+.join{
+    margin: 0;
+    padding: 0;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.network-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);;
+    color: var(--primery-white-color);
+}
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primery-white-color);
+}
+
+.link-icon {
+    fill: currentColor;
+}
+

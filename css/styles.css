@@ -18,7 +18,7 @@
     --accent-color: #2196F3;
     --primery-white-color: #ffffff;
     --section-command-bc: #F5F4FA;
-    --clients-color: #AFB1B8;;
+    --clients-color: #AFB1B8;
 }
 
 /* index.html */
@@ -147,10 +147,8 @@ ul {
     line-height: 1.142;
     letter-spacing: 0.02em;
 
-    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    
 }
 
 .auth-nav {
@@ -158,18 +156,18 @@ ul {
     align-items: center;
     margin-left: auto;
 }
-
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-    color: var(--accent-color);
-}
-
 .icon-mail,
 .icon-tel {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
 
 .envelope,
 .smartphone {
@@ -457,8 +455,13 @@ ul {
   
 }
 
+.link-item {
+    fill: currentColor;
+}
+
 .network-item:not(:last-child) {
-    margin-right: 10px;}
+    margin-right: 10px;
+}
 
     /* Постоянные клиенты */
 
@@ -509,11 +512,7 @@ ul {
     border-radius: 4px;
     width: 100%;
     height: 100%;
-    color: var(--icon-color);
-}
-
-.customer-icon {
-    fill: currentColor;
+    color: var(--clients-color);
 }
 
 .customer-link:hover,
@@ -522,13 +521,17 @@ ul {
     border: 1px solid var(--accent-color);
 }
 
+.customer-icon {
+    fill: currentColor;
+}
+
 /* подвал */
 
 .page-footer {
     background-color: #2F303A;
 }
 
-.fo {
+.footer-join {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -564,7 +567,7 @@ ul {
 
 .address {
     color: var(--primery-white-color);
-
+    font-style: normal;
     font-size: 14px;
     line-height: 1.714;
 
@@ -589,7 +592,6 @@ ul {
     color: var(--primery-white-color);
     margin-bottom: 20px;
     align-content: center;
-    font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.143;
@@ -621,4 +623,9 @@ ul {
     background-color: var(--accent-color);
     color: var(--primery-white-color);
 }
+
+.link-icon {
+    fill: currentColor;
+}
+
 
