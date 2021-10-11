@@ -522,7 +522,8 @@ ul {
 }
 
 .customer-icon {
-    fill: currentColor;
+    fill: #AFB1B8;
+    /* fill: currentColor; */
 }
 
 /* подвал */
