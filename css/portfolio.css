@@ -259,6 +259,10 @@ ul {
 
 /* основной контент */
 
+.woo {
+    font-size: 0px;
+}
+
 .work-examples {
     display: flex;
     flex-wrap: wrap;
