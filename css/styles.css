@@ -88,11 +88,6 @@ ul {
     margin-left: 93px;
 }
 
-.site-nav .item {
-    /* outline: 1px solid red; */
-    /* margin-right: 50px; */
-}
-
 .site-nav .item + .item {
     margin-left: 50px;
 }
@@ -178,8 +173,6 @@ ul {
 /* секция hero */
 
 .hero {
-    /* background-color: #2F303A; */
-
     margin: 0;
     padding: 0;
 }
